@@ -1,2 +1,44 @@
-div{background-color: brown;
-padding;}
+body{
+    background: rgb(58, 58, 95);
+}
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+font-size: 25px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: 600;
+}
+
+.Navbar a{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.Navbar a:hover{
+    color:rgb(83, 9, 179);
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+
+padding: 20px 10%;
+background: yellowgreen;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
